@@ -165,7 +165,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: var(--color-primary);
+  background: #cd1122;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -179,7 +179,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: #ec2727;
+  background: #cd1122;
   color: #fff;
 }
 
@@ -336,7 +336,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 600;
-    color: #7f7f90;
+    color: #474747;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
