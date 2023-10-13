@@ -776,6 +776,7 @@ section {
   position: absolute;
   right: 0;
   top: 0;
+
 }
 
 .section-about-text .accordion-list p {
@@ -801,6 +802,33 @@ section {
 
 .section-about-text .accordion-list a.collapsed .icon-close {
   display: none;
+}
+
+.section-about-text .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section-about-text .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.section-about-text .content ul li+li {
+  margin-top: 10px;
+}
+
+.section-about-text .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #cd1122;
+
+}
+
+.section-about-text .content p:last-child {
+  margin-bottom: 0;
 }
 
 .section-about-text p {
@@ -1060,6 +1088,8 @@ section {
   border-radius: 50%;
   border: 4px solid #fff;
   margin: 0 auto;
+  height: 200px;
+  width: 200px;
 }
 
 .testimonials .testimonial-item h3 {
