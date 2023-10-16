@@ -1706,7 +1706,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color: #1f1f24;
+  background-color: #474747;
   padding: 50px 0;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -1772,7 +1772,7 @@ section {
 
 .footer .social-links a:hover {
   color: #fff;
-  border-color: #fff;
+  border-color: #cd1122;
 }
 
 .footer .copyright {
