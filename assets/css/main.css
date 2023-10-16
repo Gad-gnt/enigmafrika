@@ -80,7 +80,7 @@ section {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  color: #7f7f90;
+  color: #474747;
   text-transform: uppercase;
   font-family: var(--font-default);
 }
@@ -93,7 +93,8 @@ section {
 }
 
 .section-header p span {
-  color: var(--color-primary);
+  font-family: var(--font-primary);
+  color: #cd1122;
 }
 
 /*--------------------------------------------------------------
@@ -804,28 +805,9 @@ section {
   display: none;
 }
 
-.section-about-text .content ul {
-  list-style: none;
-  padding: 0;
-}
 
-.section-about-text .content ul li {
-  padding-left: 28px;
-  position: relative;
-}
 
-.section-about-text .content ul li+li {
-  margin-top: 10px;
-}
 
-.section-about-text .content ul i {
-  position: absolute;
-  left: 0;
-  top: 2px;
-  font-size: 20px;
-  color: #cd1122;
-
-}
 
 .section-about-text .content p:last-child {
   margin-bottom: 0;
@@ -1080,7 +1062,7 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-content {
-  border-left: 3px solid var(--color-primary);
+  border-left: 3px solid #cd1122;
   padding-left: 30px;
 }
 
@@ -1114,7 +1096,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #f05656;
+  color: #cd1122;
   font-size: 26px;
   line-height: 0;
 }
