@@ -1712,7 +1712,7 @@ section {
 
 .footer .footer-newsletter {
   padding: 50px 0;
-  background: #f6f9ff;
+  background: white url(../img/footer-bg.png) no-repeat right top;
   border-top: 1px solid #e1ecff;
 }
 
@@ -1722,7 +1722,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  color: #012970;
+  color: #474747;
 }
 
 .footer .footer-newsletter form {
