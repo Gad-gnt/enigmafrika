@@ -950,10 +950,85 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Recent Blog Posts
+--------------------------------------------------------------*/
+.recent-blog-posts .post-box {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  transition: 0.3s;
+  height: 100%;
+  overflow: hidden;
+  padding: 30px;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.recent-blog-posts .post-box .post-img {
+  overflow: hidden;
+  margin: -30px -30px 15px -30px;
+  position: relative;
+}
+
+.recent-blog-posts .post-box .post-img img {
+  transition: 0.5s;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.recent-blog-posts .post-box .post-date {
+  font-size: 20px;
+  font-weight: 600;
+  color: #cd1122;
+  display: block;
+  margin-bottom: 10px;
+
+}
+
+.recent-blog-posts .post-box .post-title {
+  font-size: 16px;
+  color: #474747;
+  font-weight: 400;
+  margin-bottom: 18px;
+  position: relative;
+  transition: 0.3s;
+  text-align: justify;
+}
+
+.recent-blog-posts .post-box .readmore {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+.recent-blog-posts .post-box .readmore i {
+  line-height: 0;
+  margin-left: 4px;
+  font-size: 18px;
+}
+
+.recent-blog-posts .post-box:hover .post-title {
+  color: #474747;
+}
+
+.recent-blog-posts .post-box:hover .post-img img {
+  transform: rotate(6deg) scale(1.2);
+}
+
+/*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
 .menu .nav-tabs {
   border: 0;
+}
+
+.modal-body {
+  text-align: justify;
+
 }
 
 .menu .nav-link {
@@ -1024,25 +1099,35 @@ section {
   text-align-last: center;
 }
 
+
+
 .menu .tab-content .menu-item .menu-img {
   padding: 0 60px;
   margin-bottom: 15px;
+  height: 300px;
+  width: 600px;
+
 }
 
 .menu .tab-content .menu-item h4 {
   font-size: 22px;
   font-weight: 500;
-  color: var(--color-secondary);
+  color: #474747;
   font-family: var(--font-secondary);
   font-weight: 30px;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 .menu .tab-content .menu-item .ingredients {
   font-family: var(--font-secondary);
-  color: #8d8d9b;
+  color: #474747;
   margin-bottom: 5px;
+  text-align: justify;
+  left: 0px;
 }
+
+
 
 .menu .tab-content .menu-item .price {
   font-size: 24px;
