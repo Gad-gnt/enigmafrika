@@ -1867,7 +1867,7 @@ p.card-text,
 .hero .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
-  margin-left: 0px;
+  margin-left: 25px;
   color: var(--font-secondary);
   font-weight: 600;
 
