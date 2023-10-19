@@ -946,7 +946,7 @@ p.card-text,
 }
 
 .why-us .content p a {
-  color: #474747;
+  color: #cd1122;
 }
 
 .why-us .content .about-btn {
@@ -1092,9 +1092,11 @@ p.card-text,
   font-size: 16px;
   color: #474747;
   font-weight: 400;
-  margin-bottom: 18px;
+  margin-bottom: 19px;
   position: relative;
   transition: 0.3s;
+  font-family: source sans pro;
+  font-style: normal;
   text-align: justify;
 }
 
@@ -1344,7 +1346,6 @@ p.card-text,
 
 .events .event-item:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   inset: 0;
 }
@@ -1838,6 +1839,11 @@ p.card-text,
   font-style: normal;
   font-size: 17px;
   text-align: justify;
+}
+
+.hero img {
+  float: right;
+  width: 650px;
 }
 
 .hero .btn-book-a-table {
