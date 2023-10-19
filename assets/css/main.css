@@ -334,8 +334,8 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 0 3px;
-    font-family: var(--font-secondary);
-    font-size: 16px;
+    font-family: source sans pro;
+    font-size: 17px;
     font-weight: 600;
     color: #474747;
     white-space: nowrap;
@@ -628,6 +628,10 @@ section {
 
 .about p {
   text-align: justify;
+  color: #474747;
+  font-family: source sans pro;
+  font-style: normal;
+  font-size: 18px;
 }
 
 .about i {
@@ -914,7 +918,7 @@ p.card-text,
 # Why Us Section
 --------------------------------------------------------------*/
 .why-us {
-  background: #cd1122;
+  background: #474747;
   background-size: cover;
   padding: 60px 0;
   position: relative;
@@ -936,8 +940,13 @@ p.card-text,
 
 .why-us .content p {
   margin-bottom: 30px;
-  font-size: 17px;
+  font-size: 18px;
   text-align: justify;
+  font-family: source sans pro;
+}
+
+.why-us .content p a {
+  color: #474747;
 }
 
 .why-us .content .about-btn {
@@ -1030,8 +1039,9 @@ p.card-text,
 .stats-counter .stats-item p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-family: source sans pro;
+  font-style: normal;
+  font-size: 17px;
   color: #5a5555;
   margin-left: 70px;
   font-weight: 400;
@@ -1072,6 +1082,9 @@ p.card-text,
   color: #cd1122;
   display: block;
   margin-bottom: 10px;
+  font-family: source sans pro;
+  font-style: normal;
+  text-align: justify;
 
 }
 
@@ -1810,6 +1823,7 @@ p.card-text,
   font-weight: 700;
   margin-bottom: 20px;
   color: #474747;
+  font-family: source sans pro;
 }
 
 .hero h2 span {
@@ -1820,6 +1834,10 @@ p.card-text,
   color: #4f4f5a;
   font-weight: 400;
   margin-bottom: 30px;
+  font-family: source sans pro;
+  font-style: normal;
+  font-size: 17px;
+  text-align: justify;
 }
 
 .hero .btn-book-a-table {
