@@ -626,6 +626,10 @@ section {
   margin-bottom: 0;
 }
 
+.about p {
+  text-align: justify;
+}
+
 .about i {
   color: #cd1122;
   font-size: 30px;
@@ -734,6 +738,83 @@ section {
   height: 75vh;
 }
 
+/*--------------------------------------------------------------
+# Card
+--------------------------------------------------------------*/
+
+.card {
+  position: relative;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #00000020;
+  border-radius: 0.8rem;
+  height: 220px;
+}
+
+p.card-text,
+.secondary {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 0.75;
+  line-height: 25px;
+  text-overflow: clip;
+  font-family: source sans pro;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.card.border-0 {
+  box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d !important;
+  background: hsl(220deg 14% 97%) !important;
+  text-align: left;
+  background-color: #fff !important;
+  position: relative;
+  margin-top: 12px !important;
+  border: 1px solid #eee !important;
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  color: #000 !important;
+}
+
+.card-title {
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  font-size: 22px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: normal;
+  color: #cd1122;
+}
+
+.card.border-0.three {
+  box-shadow: rgb(0 0 0 / 23%) 0 0.0625em 0.0625em,
+    rgb(0 0 0 / 20%) 0 0.25em 0.25em,
+    rgb(0 0 0 / 18%) 0 0.45em 1.105em -0.0625em !important;
+}
+
+.card.border-0.three h5.card-title {
+  top: 25% !important;
+  position: absolute;
+  z-index: 1;
+  font-weight: 800 !important;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro";
+  color: #000;
+  text-shadow: 0.5px 1px 0.5px #fff, -1px -1px 2px #eee;
+}
+
+.card.border-0.three hr {
+  margin-bottom: -15px !important;
+  margin-top: 0 !important;
+}
+
+
 .section-about-text .accordion-list {
   padding: 0 10px 10px 10px;
 }
@@ -756,14 +837,17 @@ section {
 .section-about-text .accordion-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-style: normal;
+  font-family: source sans pro;
+  font-size: 18px;
   line-height: 24px;
   font-weight: 500;
   padding-right: 30px;
   outline: none;
   color: #474747;
   cursor: pointer;
+
+
 }
 
 .section-about-text .accordion-list span {
@@ -784,6 +868,9 @@ section {
 .section-about-text .accordion-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
+  font-style: normal;
+  font-size: 18px;
+  font-family: source sans pro;
 }
 
 .section-about-text .accordion-list .icon-show {
@@ -806,21 +893,22 @@ section {
   display: none;
 }
 
-
-
-
-
 .section-about-text .content p:last-child {
   margin-bottom: 0;
 }
 
 .section-about-text p {
   text-align: justify;
+  font-style: normal;
+  font-size: 18px;
+  font-family: source sans pro;
+
 }
 
 .section-about-text h3 {
   color: #cd1122;
 }
+
 
 /*--------------------------------------------------------------
 # Why Us Section
@@ -1543,7 +1631,7 @@ section {
 }
 
 .gallery .swiper-slide img {
-  height: 100px;
+  height: 80px;
   width: 250px;
 }
 
@@ -1755,9 +1843,10 @@ section {
 .hero .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
-  margin-left: 25px;
+  margin-left: 0px;
   color: var(--font-secondary);
   font-weight: 600;
+
 }
 
 .hero .btn-watch-video i {
