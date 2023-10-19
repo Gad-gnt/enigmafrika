@@ -19,7 +19,7 @@
 
 /* Colors */
 :root {
-  --color-default: #212529;
+  --color-default: #474747;
   --color-primary: #cd1122;
   --color-secondary: #37373f;
 
@@ -580,6 +580,18 @@ section {
   margin-bottom: 30px;
   font-family: var(--font-secondary);
 }
+
+.about .section-header p {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: var(--font-primary);
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+
+
 
 .about .call-us {
   left: 10%;
@@ -1820,15 +1832,20 @@ p.card-text,
 }
 
 .hero h2 {
-  font-size: 64px;
+  font-size: 40px;
   font-weight: 700;
   margin-bottom: 20px;
   color: #474747;
   font-family: source sans pro;
+  text-align: justify;
 }
 
 .hero h2 span {
   color: var(--color-primary);
+  font-size: 51px;
+  font-family: source sans pro;
+  font-weight: 700;
+  text-align: justify;
 }
 
 .hero p {
@@ -1843,7 +1860,7 @@ p.card-text,
 
 .hero img {
   float: right;
-  width: 650px;
+  width: 620px;
 }
 
 .hero .btn-book-a-table {
@@ -1949,14 +1966,14 @@ p.card-text,
   font-size: 16px;
   padding: 0 30px;
   margin: 3px;
-  background: #4154f1;
+  background: #cd1122;
   color: #fff;
   transition: 0.3s;
   border-radius: 4px;
 }
 
 .footer .footer-newsletter form input[type=submit]:hover {
-  background: #5969f3;
+  background: #f2838c;
 }
 
 .footer .footer-top {
