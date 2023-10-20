@@ -1831,13 +1831,17 @@ p.card-text,
   padding: 160px 0 60px 0;
 }
 
+.hero .container {
+  position: relative;
+}
+
 .hero h2 {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 20px;
   color: #474747;
   font-family: source sans pro;
-  text-align: justify;
+
 }
 
 .hero h2 span {
@@ -1845,7 +1849,7 @@ p.card-text,
   font-size: 51px;
   font-family: source sans pro;
   font-weight: 700;
-  text-align: justify;
+
 }
 
 .hero p {
@@ -1875,6 +1879,7 @@ p.card-text,
   background: var(--color-primary);
   box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
 }
+
 
 .hero .btn-book-a-table:hover {
   background: rgba(206, 18, 18, 0.8);
@@ -1939,6 +1944,7 @@ p.card-text,
   line-height: 1;
   font-weight: 700;
   color: #474747;
+  font-family: source sans pro;
 }
 
 .footer .footer-newsletter form {
@@ -2017,7 +2023,7 @@ p.card-text,
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: source sans pro;
 }
 
 .footer .footer-top .social-links a {
