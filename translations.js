@@ -9,6 +9,7 @@ const qLang = searchParams.get("lang");
 let supportedLang = ['en', 'fr'];
 
 lang = supportedLang.includes(nLang) ? nLang : lang;
+
 lang = qLang && supportedLang.includes(qLang) ? qLang : lang;
 //console.log()
 
